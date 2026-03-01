@@ -41,7 +41,7 @@ az account set --subscription "<SUBSCRIPTION_ID_OR_NAME>"
 
 
 ## How to run / plan
-From the `Part2` directory:
+From the `JTA` directory:
 
 ```bash
 terraform init
