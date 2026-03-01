@@ -39,17 +39,6 @@ az login
 az account set --subscription "<SUBSCRIPTION_ID_OR_NAME>"
 ```
 
-## Configure
-Optional: set values in `terraform.tfvars`.
-
-Example:
-```hcl
-project_name         = "jtaweb"
-environment          = "prod"
-location             = "eastus"
-resource_group_name  = "rg-jtaweb-prod"
-db_admin_username    = "jtaadmin"
-```
 
 ## How to run / plan
 From the `Part2` directory:
