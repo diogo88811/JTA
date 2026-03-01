@@ -1,4 +1,4 @@
-# JTA Terraform Infrastructure (Part2)
+# JTA Terraform Infrastructure 
 
 ## Overview
 This Terraform project provisions a private Azure web application platform with network segmentation and secure data access.
