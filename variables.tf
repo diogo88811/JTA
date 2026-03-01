@@ -13,7 +13,7 @@ variable "environment" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "eastus"
+  default     = "westeurope"
 }
 
 variable "resource_group_name" {
