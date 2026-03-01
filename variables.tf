@@ -1,5 +1,5 @@
 variable "project_name" {
-  description = "Project name (used for resource naming)"
+  description = "Project name"
   type        = string
   default     = "jtaweb"
 }

@@ -25,7 +25,7 @@ resource "azurerm_linux_web_app" "app_z1" {
     remote_debugging_enabled = false
 
     application_stack {
-      node_version = "20-lts"
+      node_version = "20-lts" // assume this one although it is not mentioned int he requirements
     }
 
     health_check_path = "/health"

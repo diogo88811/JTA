@@ -1,34 +1,34 @@
 variable "resource_group_name" {
   description = "Name of the resource group"
-  type = string
+  type        = string
 }
 
 variable "location" {
   description = "Azure location"
-  type = string
+  type        = string
 }
 
 variable "subnet_id" {
   description = "ID of the subnet"
-  type = string
+  type        = string
 }
 
 variable "private_dns_zone_id" {
   description = "ID of the private DNS zone"
-  type = string
+  type        = string
 }
 
 variable "tenant_id" {
   description = "Azure tenant ID"
-  type = string
+  type        = string
 }
 
 variable "project_name" {
   description = "Project name for naming resources"
-  type = string
+  type        = string
 }
 
 variable "common_tags" {
   description = "Common tags for all resources"
-  type = map(string)
+  type        = map(string)
 }
